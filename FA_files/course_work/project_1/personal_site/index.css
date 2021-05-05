@@ -1,0 +1,84 @@
+.links a:nth-child(1) {
+    border-bottom: 5px solid #283586;
+}
+
+/* Image is not protected by copyright, but not mine either */
+/* Note: Get one that IS mine */
+.bg_1 {
+    background-image: url("./galaxy_plain.jpg");
+}
+
+/* From NASA, this one not protected by copyright */
+.bg_2 {
+    background-image: url("./trifid_nebula.jpg");
+    min-height:1600px;
+    padding:100px;
+}
+
+main .text_content {
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px 25px rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
+    color:#EEEEEE;
+    font-size: large;
+    max-width: 75%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+main .text_content p {
+    margin: 5px 0 0 0;
+}
+
+main .info_content {
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px 30px rgba(0,0,0,0.8);
+    max-width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+main .section_title {
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width:100%;
+}
+
+.content_card {
+    width:50%;
+    height:300px;
+    margin:10%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .content_card {
+        width:70%;
+    }
+}
+
+.card1 {
+    background-color: #442F75;
+    box-shadow: 0 0 20px 25px #442F75;
+}
+
+.card2 {
+    background-color: #283586;
+    box-shadow: 0 0 20px 25px #283586;
+}
+
+.card3 {
+    background-color: #641D2C;
+    box-shadow: 0 0 20px 25px #641D2C;
+}
+
+.card_spacer {
+    width:30%;
+}

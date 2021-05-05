@@ -1,0 +1,66 @@
+.links a:nth-child(3) {
+    border-bottom: 5px solid #283586;
+}
+
+/* Image is not protected by copyright, but not mine either */
+/* Note: Get one that IS mine */
+.bg_1 {
+    background-image: url("./galaxy_plain.jpg");
+}
+
+/* From NASA, this one not protected by copyright */
+.bg_2 {
+    background-image: url("./trifid_nebula.jpg");
+    min-height:1600px;
+}
+
+.text_content {
+   box-sizing: border-box;
+   width:80%;
+   background-color: rgba(0,0,0,0.8); 
+   box-shadow: 0 0 20px 20px rgba(0,0,0,0.8);
+   padding: 10px 30px;
+}
+
+.content_card {
+    display:flex;
+    flex-direction: column;
+    margin:10%;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px 25px rgba(0,0,0,0.8);
+    padding:10px;
+}
+
+.content_card h1 {
+    padding-left: 10px;
+}
+
+.content_card img {
+    width:400px;
+    margin: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 20px #641D2C;
+}
+
+
+
+.card_content {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:910px) {
+    .card_content {
+        flex-direction: column;
+    }
+}
+
+.card_content p {
+    padding:10px;
+}
+
+.card_content img {
+    padding:10px;
+    border-radius: 40px;
+}

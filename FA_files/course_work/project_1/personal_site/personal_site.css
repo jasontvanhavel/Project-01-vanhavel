@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    display:flex;
+    width:100%;
+    height:60px;
+    top: 0;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    color:#eeeeee;
+    box-shadow: 0 0 20px 15px black;
+}
+
+header h1 {
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+    margin:1em;
+    padding-top:0.7em;
+}
+
+header h1 a {
+    color:#eeeeee;
+    text-decoration: none;
+}
+
+header .links {
+    margin:1.5em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header .links a {
+    color:#eeeeee;
+    text-decoration: none;
+    padding:1em;
+}
+
+header .links a:hover {
+    border-bottom: 5px solid #eeeeee;
+}
+
+header .links .hamburger {
+    display:none;
+}
+
+@media screen and (max-width:600px){
+    header .links a {
+        display: none;
+    }
+
+    header .links .hamburger {
+        display:inline-block;
+        box-sizing: border-box;
+        border-bottom: 5px solid black;
+    }
+}
+
+main {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#eeeeee;
+}
+
+.bgs {
+    min-height:800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content:space-around;
+    box-shadow: 0 0 20px 20px black inset;  
+}
+
+.divider {
+    width:100%;
+    height:20px;
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    width:100%;
+    box-shadow: 0 0 15px 15px black;
+}
+
+footer .social_links {
+    padding: 0 10px 5px 0;
+}
+
+footer img {
+    width:20px;
+    height:20px;
+    padding: 5px;
+}
